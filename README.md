@@ -56,7 +56,47 @@ To keep things simple we're not going to get into details of how to setup and ma
 
 ### Creating a database
 
-# 
+MongoDB databases work as something called a database cluster. This is a group of 3 databases working together to make sure the data is safe and always available. 
+
+👉To make a new database cluster, press the "Build a Database"  button.
+
+![Screenshot 2022-10-19 at 7.39.55 pm.png](assets/121cf9fe5114cecdf0c1af2abc486863153d13c7.png)
+
+👉For the database type selection press "Create" in the "Free" "Shared" column.
+
+![Screenshot 2022-10-19 at 7.41.00 pm.png](assets/3d9285f53343c3be822397242ec65aea2b127c4c.png)
+
+👉On the "Create a Shared Cluster" screen, accept the default options and press "Create Cluster".
+
+![Screenshot 2022-10-19 at 7.43.47 pm.png](assets/d0d353eeb5cae6659fdb4bf29c91f2e2b1dcba3b.png)
+
+There are different ways to connect to our database. We're going to use a strong username and password for this example. 
+
+👉On the "Security Quickstart" screen press "Username and Password". Enter a strong username and press "Autogenerate Secure Password" to generate us a strong password. 
+
+👉Press "Copy" to copy the password to the clipboard. Paste it in a safe place but don't commit this password in the code.
+
+👉Press "Create User" and after a momment you'll see a message saying that the user was successfully created.
+
+![Screenshot 2022-10-19 at 7.45.33 pm.png](assets/137574fa429cc686dd3ff57a08ea8f29a87a62a8.png)
+
+The next step is the configure who can access our database. For this example we're going to keep it simple and allow any IP address to connect. This is why it was important to create a strong password in the previous step and why it's important to keep that password secret!
+
+👉Choose "My Local Environment" and then enter "0.0.0.0" for the "IP Address" and "Everyone" as the "Description". Press "Add Entry".
+
+![Screenshot 2022-10-19 at 7.57.21 pm.png](assets/80d1b326740870d254465e7da3f9a3ad8c350bf1.png)
+
+After adding the IP address the "Finish and Close" button will be enabled.
+
+👉Press the "Finish and Close" button to complete the setup.
+
+![Screenshot 2022-10-19 at 8.00.06 pm.png](assets/344c37a63b9e9e25427095afca7892bc83762015.png)
+
+👉Choose "Go to Databases" to see our newly create database. 
+
+![Screenshot 2022-10-19 at 8.01.28 pm.png](assets/b5957bd23189a8ffec69a70f517eb187a9309b6b.png)
+
+## Adding some initial data
 
 
 
